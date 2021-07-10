@@ -15,7 +15,7 @@ def main():
     port = input('Digite a porta a ser conectada: ')
 
     try:
-        s.connect((host,int(port))
+        s.connect((host,int(port)))
         print("CLiente TCP conectado com Sucesso!!")
         print(f'HOST: {host}')
         print(f'PORT: {port}')
@@ -27,5 +27,5 @@ def main():
         sys.exit()
 
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     main()
