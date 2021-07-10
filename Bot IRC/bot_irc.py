@@ -33,7 +33,7 @@ s.send(comando_nick)
 comando_user = f'USER {nick} {nick} {nick} :{nick}\r\n'.encode('UTF-8')
 s.send(comando_user)
 
-registra(s, 'BotDaEmpresa')
+registra(s, 'Ella Darte')
 
 while True:
     msg = s.recv(2048).decode('UTF-8')
